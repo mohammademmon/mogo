@@ -746,20 +746,20 @@ html{
     padding: 85px 0 25px;
     background-color: #f8f8f8;
 }
-.footer-top{
+.footer-main{
     display: flex;
 }
-.footer-top-coloumn{
-    width: 33.33%;
+.footer-c1{
+    width: 485px;
 }
-.footer-top-coloumn-img{
+.footer-c1-logo img{
     width: 131px;
     height: 34px;
 }
-.footer-top-coloumn-text{
-    margin-top: 43px;
+.footer-c1-text{
+    margin-top: 40px;
 }
-.footer-top-coloumn-text p{
+.footer-c1-text h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -767,52 +767,52 @@ html{
     line-height: 23px;
     margin-bottom: 51px;
 }
-.footer-top-coloumn-text h2{
+.footer-c1-text h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #333333;
     margin-bottom: 16px;
 }
-.footer-top-coloumn-text h2 span{
+.footer-c1-text h3 span{
     font-weight: 400;
 }
-.footer-top-coloumn-divider{
+.footer-c1-divider{
     width: 100%;
     height: 1px;
     background-color: #e5e5e5;
 }
-.footer-top-coloumn-icon{
+.footer-c1-icon{
     margin-top: 15px;
     display: flex;
     align-items: center;
 }
-.footer-top-coloumn-icon-text h2{
+.footer-c1-icon-text h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
     font-style: italic;
     color: #999999;
 }
-.footer-top-coloumn-icon-items{
+.footer-c1-icon-icon{
     margin-left: 23px;
 }
-.footer-top-coloumn-icon-items ul li{
+.footer-c1-icon-icon ul li{
     display: inline-block;
-    padding: 0 7px;
+    padding: 0 10px;
 }
-.footer-top-coloumn-icon-items ul li:first-child{
+.footer-c1-icon-icon ul li:first-child{
     padding-left: 0;
 }
-.footer-top-coloumn-icon-items ul li a i{
+.footer-c1-icon-icon ul li a i{
     font-size: 15px;
     color: #95e1d3;
 }
-.footer-top-coloumn-form{
+.footer-c1-form{
     margin-top: 40px;
     position: relative;
 }
-.footer-top-coloumn-form form input{
+.footer-c1-form input{
     width: 230px;
     height: 40px;
     background-color: #ffffff;
@@ -824,7 +824,7 @@ html{
     font-style: italic;
     padding-left: 13px;
 }
-.footer-top-coloumn-form form button{
+.footer-c1-form button{
     position: absolute;
     top: 0;
     left: 244px;
@@ -835,142 +835,75 @@ html{
     color: #ffffff;
     text-transform: uppercase;
 }
-.footer-top-coloumn-title h2{
+.footer-c2{
+    width: 340px;
+    margin: 0 26px;
+}
+.footer-c2-title h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #333333;
     text-transform: uppercase;
-    margin-left: 50px;
 }
-.footer-top-coloumn-item{
+.footer-c2-items{
     margin-top: 40px;
-
 }
-.footer-top-coloumn-item-row{
+.footer-c2-items-r1{
     display: flex;
     align-items: center;
-    margin-left: 50px;
     margin-bottom: 32px;
 }
-.footer-top-coloumn-item-row:last-child{
+.footer-c2-items-r1:last-child{
     margin-bottom: 0;
 }
-.footer-top-coloumn-item-row-column1 img{
+.footer-c2-items-img img{
     width: 120px;
     height: 80px;
 }
-.footer-top-coloumn-item-row-column2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.footer-c2-items-text{
     margin-left: 20px;
 }
-.footer-top-coloumn-item-row-column2 h2{
+.footer-c2-items-text h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #333333;
     margin-bottom: 12px;
 }
-.footer-top-coloumn-item-row-column2 p{
+.footer-c2-items-text p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 13px;
     color: #999999;
 }
-.footer-top-coloumn-img{
+.footer-c3{
+    width: 270px;
+}
+.footer-c3-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.footer-c3-img{
     margin-top: 40px;
-    margin-left: 50px;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
-.footer-top-coloumn-img-1{
-    position: absolute;
-    top: 0;
-    left: 0;
+.footer-c3-img-items{
+    margin-right: 2px;
+    margin-bottom: 2px;
 }
-.footer-top-coloumn-img-1 img{
+.footer-c3-img-items img{
     width: 88px;
     height: 88px;
 }
-.footer-top-coloumn-img-2{
-    position: absolute;
-    top: 0;
-    left: 90px;
+.footer-c3-img-vm{
+    margin-top: 22px;
 }
-.footer-top-coloumn-img-2 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-3{
-    position: absolute;
-    top: 0;
-    left: 180px;
-}
-.footer-top-coloumn-img-3 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-4{
-    position: absolute;
-    top: 90px;
-    left: 0;
-}
-.footer-top-coloumn-img-4 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-5{
-    position: absolute;
-    top: 90px;
-    left: 90px;
-}
-.footer-top-coloumn-img-5 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-6{
-    position: absolute;
-    top: 90px;
-    left: 180px;
-}
-.footer-top-coloumn-img-6 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-7{
-    position: absolute;
-    top: 180px;
-    left: 0;
-}
-.footer-top-coloumn-img-7 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-8{
-    position: absolute;
-    top: 180px;
-    left: 90px;
-}
-.footer-top-coloumn-img-8 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-9{
-    position: absolute;
-    top: 180px;
-    left: 180px;
-}
-.footer-top-coloumn-img-9 img{
-    width: 88px;
-    height: 88px;
-}
-.footer-top-coloumn-img-text{
-    position: absolute;
-    top: 290px;
-    left: 0;
-}
-.footer-top-coloumn-img-text h2{
+.footer-c3-img-vm h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 13px;
@@ -984,19 +917,16 @@ html{
     background-color: #e5e5e5;
 }
 .footer-bottom{
-    margin-top: 25px;
-}
-.footer-bottom-text{
+    margin-top: 24px;
     text-align: center;
 }
-.footer-bottom-text h2{
+.footer-bottom h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #333333;
 }
-.footer-bottom-text h2 span{
-    font-family: 'Kaushan Script', cursive;
+.footer-bottom h2 span{
     color: #f38181;
 }
 /* footer section end */
